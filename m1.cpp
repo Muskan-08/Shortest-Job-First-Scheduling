@@ -20,5 +20,15 @@ void main()
 		}
   		
   	}
+    FILE *f;
+   f=fopen("BURST.txt","w");
+   for(i=0;i<n;i++)
+   fprintf(f,"\t %d",burst[i]);
+   fclose(f);
+   printf("\nProcess \t Burst time \n");
+   for(i=0;i<n;i++)
+              {
+  	printf("\t%d\t\t %d\n", pr[i],bt[i]);
+             }
 }
   	
