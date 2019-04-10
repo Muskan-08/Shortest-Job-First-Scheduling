@@ -2,7 +2,7 @@
 //#include<conio.h>
 void main()
 {
-  int i,j,n,pr[20],bt[20],wt[20],avwt,avtt,temp,tt[20];
+  int i,j,n,pr[20],bt[20],wt[20],avwt=0,avtt=0,temp,tt[20];
   printf("Enter number of processes : ");
   scanf("%d",&n); 
 	start:
